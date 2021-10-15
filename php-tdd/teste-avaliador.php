@@ -7,8 +7,9 @@ use Alura\Leilao\Service\Avaliador;
 
 require 'vendor/autoload.php';
 
-// Arrange - Give
+// Arrange - Given
 $leilao = new Leilao('Fiat 147 0KM');
+
 $maria = new Usuario('Maria');
 $joao = new Usuario('João');
 
@@ -30,3 +31,4 @@ if ($valorEsperado == $maiorValor) {
 } else {
     echo "TESTE FALHOU";
 }
+
